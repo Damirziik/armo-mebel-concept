@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "screenshots": "node tests/screenshots.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.1",

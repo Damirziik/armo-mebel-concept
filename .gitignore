@@ -9,5 +9,6 @@ Thumbs.db
 test-results/
 playwright-report/
 reports/screenshots/*.png
+reports/screenshots/**/*.png
 contact-sheet.jpg
 *.log

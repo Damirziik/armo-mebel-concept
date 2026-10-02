@@ -1,4 +1,4 @@
-# ARMO Mebel — Unofficial Website Concept
+# ARMO Mebel — Website Concept V2
 
 A complete independent website concept for a custom furniture workshop in Astana. The project translates the real business information and project range published by `@armo_mebel_astana` into a calm architectural catalogue.
 
@@ -9,7 +9,7 @@ A complete independent website concept for a custom furniture workshop in Astana
 
 - Architectural interior editorial + contemporary furniture catalogue.
 - Warm limestone, charcoal, olive, walnut and muted bronze palette.
-- Manrope + Prata typography with full Cyrillic support.
+- Onest + Unbounded typography with full Cyrillic support.
 - Modular 12-column desktop grid and intentionally varied mobile project rhythm.
 
 ## Functionality
@@ -28,6 +28,10 @@ Vite, semantic HTML, modular CSS and vanilla JavaScript. Playwright covers respo
 ## Sources and assets
 
 - [Research notes](docs/SOURCE_NOTES.md)
+- [Final Instagram research](docs/ARMO_INSTAGRAM_RESEARCH.md)
+- [Media index](docs/ARMO_MEDIA_INDEX.md)
+- [Project grouping](docs/ARMO_PROJECT_GROUPING.md)
+- [Before/after verification](docs/ARMO_BEFORE_AFTER_REPORT.md)
 - [Asset attribution](docs/ASSET_SOURCES.md)
 
 Public Instagram preview images are included only for this clearly labelled concept case study and remain the property of their rights holders.
@@ -47,4 +51,6 @@ npm run preview
 npm run test:e2e
 ```
 
-No production deployment is configured.
+## Deployment
+
+The repository contains a Vercel SPA rewrite in `vercel.json`; pushes to the connected repository deploy to [armo-mebel-concept.vercel.app](https://armo-mebel-concept.vercel.app/).

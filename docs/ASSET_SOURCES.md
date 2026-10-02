@@ -13,4 +13,4 @@ This is an independent, non-commercial portfolio concept. ARMO Mebel did not com
 | `public/images/walk-in.jpg` | [Instagram post](https://www.instagram.com/armo_mebel_astana/p/DdJzf19Fycl/) | Open storage / walk-in wardrobe |
 | `public/images/kitchen-light.jpg` | [Instagram post](https://www.instagram.com/armo_mebel_astana/p/DK94fB6N2N6/) | Light kitchen |
 
-The favicon is an original geometric “A” mark made for this unofficial concept. Google Fonts used: Manrope and Prata under their respective open font licenses.
+The three multi-image source groups and all individual frame mappings are listed in [ARMO_MEDIA_INDEX.md](ARMO_MEDIA_INDEX.md). The favicon is an original geometric “A” mark made for this unofficial concept. Google Fonts used: Onest and Unbounded under their respective open font licenses.

@@ -56,7 +56,7 @@ test('internal routes and images are valid', async ({ page }) => {
     await expect(page.locator('main')).toBeVisible();
     const images = await page.locator('img[src]').all();
     for (const image of images) await image.scrollIntoViewIfNeeded();
-    await page.waitForTimeout(100);
+    await page.waitForFunction(() => [...document.images].every((image) => image.complete), null, { timeout: 10000 });
     const broken = await page.locator('img[src]').evaluateAll((items) => items.filter((image) => !image.complete || image.naturalWidth === 0).map((image) => image.src));
     expect(broken).toEqual([]);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
